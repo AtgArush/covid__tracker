@@ -1,0 +1,24 @@
+.tableCurrent{
+    margin-top: 15px;
+    margin-top: 20px;
+    overflow: scroll;
+    height: 50vh;
+    min-width: 27vw;
+    overflow-x: hidden;
+    color: #6a5d5d;
+    /* background-color: #6a5d5d; */
+}
+
+.tableCurrent tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableCurrent td{
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.tableCurrent tr:nth-of-type(odd){
+    background-color: #f3f2f8;
+}

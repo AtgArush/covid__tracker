@@ -1,0 +1,38 @@
+.infobox{
+    flex: 1;
+    /* padding: 10px; */
+    margin: 10px;
+}
+
+.info--active{
+    background-color: #eee !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.info--recovered{
+    color: limegreen !important;
+}
+
+.infobox__cases{
+    color: crimson;
+    font-size: 26px !important;
+    font-weight: 700 !important;
+}
+
+.infobox__total{
+    color: #888;
+    font-size: 22px !important;
+    font-weight: 500 !important;
+}
+
+@media( max-width: 900px){
+    .infobox__title{
+        font-size: 14px !important;
+    }
+    .infobox__cases{
+        font-size: 14px !important;
+    }
+    .infobox__total{
+        font-size: 14px !important;
+    }
+}
